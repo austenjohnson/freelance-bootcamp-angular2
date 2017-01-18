@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var DocumentsComponent = (function () {
     function DocumentsComponent() {
-        this.pageTitle = 'Document Dashboard';
+        this.pageTitle = "Document Dashboard";
         this.documents = [
             {
                 title: "My First Doc",
@@ -39,7 +39,8 @@ DocumentsComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'documents',
-        templateUrl: 'documents.component.html'
+        templateUrl: 'documents.component.html',
+        styleUrls: ['documents.component.css']
     })
 ], DocumentsComponent);
 exports.DocumentsComponent = DocumentsComponent;

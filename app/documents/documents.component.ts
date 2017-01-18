@@ -4,10 +4,12 @@ import { Document } from './document';
 @Component({
   moduleId: module.id,
   selector: 'documents',
-  templateUrl: 'documents.component.html'
+  templateUrl: 'documents.component.html',
+  styleUrls: ['documents.component.css']
 })
 export class DocumentsComponent {
-  pageTitle: string = 'Document Dashboard'
+  pageTitle: string = "Document Dashboard"
+
   documents: Document[] = [
     {
       title: "My First Doc",
