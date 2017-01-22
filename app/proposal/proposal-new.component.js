@@ -10,6 +10,7 @@ var proposal_1 = require("./proposal");
 var ProposalNewComponent = (function () {
     function ProposalNewComponent() {
         this.proposal = new proposal_1.Proposal;
+        this.submitted = false;
     }
     return ProposalNewComponent;
 }());
